@@ -5,13 +5,93 @@
     font-family: 'Slabo 27px', serif;
 }
 
-.services_wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 3%;
-    height: max-content;
+body {
+  background-color: #000000;
 }
+
+figure.service .serv-decription .gradient_text {
+  background-image: linear-gradient(133deg, #c824ec 0%, #df308d 100%);
+  background-size: 100%;
+  background-repeat: repeat;
+  padding-left: 0%;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.services_wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 2%;
+  height: max-content;
+}
+
+figure.service {
+  display: block;
+  position: relative;
+  margin: 2%;
+  min-width: 40%;
+  height: 100%;
+  color: #fff;
+  /* width: 100%; */
+}
+
+figure.service img {
+  opacity: 0.1;
+  width: 100%;
+  -webkit-transition: opacity 4.35s;
+  transition: opacity 4.35s;
+}
+
+.serv-decription ul{
+  padding-inline-start: 7%;
+  list-style-type: '\2735';
+  opacity: 1;
+  -webkit-transition: opacity 4.35s;
+  transition: opacity 4.35s;
+}
+
+.serv-decription span {
+  padding-left: 3%;
+}
+
+ figure.service figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1.5%;
+  width: 100%;
+  height: 100%;
+}
+
+  figure.service span, 
+  figure.service p
+   {
+    margin: 0 0 5px;
+    opacity: 1;
+    -webkit-transition: opacity 4.35s, -webkit-transform 4.35s;
+    transition: opacity 4.35s,-webkit-transform 4.35s,-moz-transform 4.35s,-o-transform 4.35s,transform 4.35s;
+    transition-delay: 0s;
+  }
+
+  figure.service span, figure.service p, figure.service ul {
+    font-size: calc(6px + (16 * 0.7) * ((100vw - 320px) / 1280));
+  }
+
+ .whdxajxi {
+   height: 1500px;
+   color: #fff;
+ }
+
+
+
+/* ----------------------------------------------- */
+
+@media only screen and (min-width: 1024px) {
+
 
 figure.service {
     color: #fff;
@@ -44,18 +124,6 @@ figure.service {
 
   .serv-decription span {
     padding-left: 3%;
-  }
-
-  figure.service .serv-decription .gradient_text {
-    background-image: linear-gradient(133deg, #c824ec 0%, #df308d 100%);
-    background-size: 100%;
-    background-repeat: repeat;
-    padding-left: 0%;
-    font-weight: 700;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
   }
 
    figure.service figcaption {
@@ -146,75 +214,8 @@ figure.service {
     -webkit-transition-delay: 0s;
     transition-delay: 0s;
   }
+}
   
-/* ----------------------------------------------- */
-
-  @media only screen and (max-width: 1024px) {
-    
-    figure.service {
-      max-width: 90%;
-    } 
-
-    figure.service img {
-      opacity: 0.1;
-      -webkit-transition: opacity 5.35s, -webkit-transform 5.35s;
-       transition: opacity 5.35s,-webkit-transform 5.35s,-moz-transform 5.35s,-o-transform 5.35s,transform 5.35s;
-    }
-
-    figure.service ul {
-      opacity: 1;
-      transition: opacity 2.35s;
-    }
-
-    figure.service figcaption p {
-      opacity: 1;
-      -webkit-transform: translate3d(0%, 0%, 0);
-      transform: translate3d(0%, 0%, 0);
-      -webkit-transition-delay: 2.4s;
-      transition-delay: 2.4s;
-    }
-
-    figure.service figcaption span {
-      opacity: 1;
-      -webkit-transform: translate3d(0%, 0%, 0);
-      transform: translate3d(0%, 0%, 0);
-      -webkit-transition-delay: 2.4s;
-      transition-delay: 2.4s;
-    }
-   
-  
-   
-
-    
-  }
- 
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* @media only screen and (max-width: 500px) {
-    figure.service {
-        font-size: 5px;
-    }
-  }
-
-  @media only screen and (max-width: 400px) {
-    figure.service {
-        font-size: 4px;
-    }
-  } */
-
 
 
  

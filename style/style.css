@@ -155,36 +155,35 @@ figure.service {
       max-width: 90%;
     } 
 
-    figure.service:focus img {
+    figure.service img {
       opacity: 0.1;
+      -webkit-transition: opacity 5.35s, -webkit-transform 5.35s;
+       transition: opacity 5.35s,-webkit-transform 5.35s,-moz-transform 5.35s,-o-transform 5.35s,transform 5.35s;
     }
-    
-    figure.service:focus ul {
-        opacity: 1;
-        transition-delay: 0.4s;
+
+    figure.service ul {
+      opacity: 1;
+      transition: opacity 2.35s;
     }
+
+    figure.service figcaption p {
+      opacity: 1;
+      -webkit-transform: translate3d(0%, 0%, 0);
+      transform: translate3d(0%, 0%, 0);
+      -webkit-transition-delay: 2.4s;
+      transition-delay: 2.4s;
+    }
+
+    figure.service figcaption span {
+      opacity: 1;
+      -webkit-transform: translate3d(0%, 0%, 0);
+      transform: translate3d(0%, 0%, 0);
+      -webkit-transition-delay: 2.4s;
+      transition-delay: 2.4s;
+    }
+   
   
-    figure.service:focus figcaption p {
-      opacity: 1;
-      -webkit-transform: translate3d(0%, 0%, 0);
-      transform: translate3d(0%, 0%, 0);
-      -webkit-transition-delay: 0.4s;
-      transition-delay: 0.4s;
-    }
-    figure.service:focus figcaption span {
-      opacity: 0.9;
-      -webkit-transform: translate3d(0%, 0%, 0);
-      transform: translate3d(0%, 0%, 0);
-      -webkit-transition-delay: 0.6s;
-      transition-delay: 0.4s;
-    }
-    figure.service:focus figcaption::before {
-      background: rgba(255, 255, 255, 0);
-      left: 30px;
-      opacity: 1;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s;
-    }
+   
 
     
   }

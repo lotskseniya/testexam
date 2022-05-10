@@ -39,7 +39,7 @@ figure.service .serv-decription .gradient_text {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 2%;
+  padding: 1%;
   height: max-content;
 }
 
@@ -48,7 +48,7 @@ figure.service {
   position: relative;
   /* margin: 1%; */
   min-width: 45%;
-  max-width: 50%;
+  max-width: 49%;
   height: 100%;
   color: #fff;
   /* width: 100%; */

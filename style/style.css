@@ -177,6 +177,11 @@ figure.service {
     position: absolute;
     color: #ffffff;
   }
+
+  figure.service:hover {
+    cursor: pointer;
+  }
+
   figure.service:hover img {
     opacity: 0.1;
   }

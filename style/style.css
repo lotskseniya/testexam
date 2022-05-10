@@ -172,19 +172,28 @@ figure.service {
     }   
   } 
 
-  @media only screen and (max-width: 780px) {
+  @media only screen and (max-width: 768px) {
     figure.service {
         font-size: 0.5em;
     }
   }
  
-  @media only screen and (max-width: 600px) {
-    figure.service {
-        font-size: 6px;
-    }
-  }
+  
 
-  @media only screen and (max-width: 500px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* @media only screen and (max-width: 500px) {
     figure.service {
         font-size: 5px;
     }
@@ -194,7 +203,7 @@ figure.service {
     figure.service {
         font-size: 4px;
     }
-  }
+  } */
 
 
 

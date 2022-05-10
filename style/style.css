@@ -47,9 +47,8 @@ figure.service .serv-decription .gradient_text {
 figure.service {
   display: block;
   position: relative;
-  /* margin: 1%; */
+  margin: 1%;
   min-width: 45%;
-  /* max-width: 50%; */
   height: 100%;
   color: #fff;
   /* width: 100%; */

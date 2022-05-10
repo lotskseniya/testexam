@@ -164,10 +164,8 @@ figure.service {
 
     figure.service figcaption p, span {
       opacity: 1;
-      -webkit-transform: translate3d(0%, 0%, 0);
-      transform: translate3d(0%, 0%, 0);
-      -webkit-transition-delay: 0.2s;
-      transition-delay: 0.2s;
+      -webkit-transition: opacity 0.3s;
+      transition: opacity 0.3s;
     }
     /* figure.service figcaption span {
       opacity: 1;

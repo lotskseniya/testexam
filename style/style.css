@@ -19,6 +19,7 @@ figure.service .discover_btn {
   -ms-flex-pack: center;
   text-align: center;
   color: #fff;
+  margin-left: calc(50%-10px);
 }
 
 figure.service .serv-decription .gradient_text {
@@ -56,6 +57,10 @@ figure.service img {
   width: 100%;
   -webkit-transition: opacity 4.35s;
   transition: opacity 4.35s;
+}
+
+figure.service .service-img {
+  opacity: 1;
 }
 
 .serv-decription ul{

@@ -53,7 +53,7 @@ figure.service {
   /* width: 100%; */
 }
 
-figure.service img {
+figure.service .figure-img{
   opacity: 0.1;
   width: 100%;
   -webkit-transition: opacity 4.35s;
@@ -124,7 +124,7 @@ figure.service {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
   }
-  figure.service img {
+  figure.service .figure-img {
     opacity: 1;
     width: 100%;
     -webkit-transition: opacity 0.35s;
@@ -179,7 +179,6 @@ figure.service {
     transition-delay: 0.2s;
   }
 
-  
   figure.service p {
     font-weight: 200;
     -webkit-transform: translate3d(0%, 30%, 0);
@@ -200,7 +199,7 @@ figure.service {
     cursor: pointer;
   }
 
-  figure.service:hover img {
+  figure.service:hover .figure-img {
     opacity: 0.1;
   }
   

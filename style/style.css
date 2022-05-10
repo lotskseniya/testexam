@@ -19,7 +19,8 @@ figure.service .discover_btn {
   -ms-flex-pack: center;
   text-align: center;
   color: #fff;
-  margin-left: calc(50%-10px);
+  margin: 0 auto;
+  text-decoration: none;
 }
 
 figure.service .serv-decription .gradient_text {

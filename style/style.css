@@ -20,6 +20,7 @@ figure.service .discover_btn {
   text-align: center;
   color: #fff;
   margin: 0 auto;
+  margin-bottom: 2%;
   text-decoration: none;
 }
 
@@ -53,7 +54,7 @@ figure.service {
   /* width: 100%; */
 }
 
-figure.service .figure-img{
+.figure-img{
   opacity: 0.1;
   width: 100%;
   -webkit-transition: opacity 4.35s;

@@ -173,13 +173,41 @@ figure.service {
   } 
 
   @media only screen and (max-width: 768px) {
-    figure.service {
-        font-size: 0.5em;
+    figure.service:focus img {
+      opacity: 0.1;
     }
+
+    figure.service:focus ul {
+      opacity: 1;
+      transition-delay: 0.4s;
+  }
+
+  figure.service:focus figcaption p {
+    opacity: 1;
+    -webkit-transform: translate3d(0%, 0%, 0);
+    transform: translate3d(0%, 0%, 0);
+    -webkit-transition-delay: 0.4s;
+    transition-delay: 0.4s;
+  }
+  figure.service:focus figcaption span {
+    opacity: 0.9;
+    -webkit-transform: translate3d(0%, 0%, 0);
+    transform: translate3d(0%, 0%, 0);
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.4s;
+  }
+  figure.service:focus figcaption::before {
+    background: rgba(255, 255, 255, 0);
+    left: 30px;
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+
   }
  
   
-
+  
 
 
 

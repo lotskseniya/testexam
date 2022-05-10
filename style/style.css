@@ -9,7 +9,7 @@ body {
   background-color: #000000;
 }
 
-figure.service .discover_btn {
+.service-item .discover_btn {
   width: 90.07px;
   height: 35.03px;
   line-height: 35.03px;
@@ -41,6 +41,11 @@ figure.service .serv-decription .gradient_text {
   justify-content: space-evenly;
   padding: 1%;
   height: max-content;
+}
+
+.service-item {
+  width: 48%;
+  color: #fff;
 }
 
 figure.service {
@@ -99,10 +104,6 @@ figure.service .service-img {
   figure.service span, figure.service p, figure.service ul {
     font-size: calc(6px + (16 * 0.7) * ((100vw - 320px) / 1280));
   }
-
-
-
-
 
 /* ----------------------------------------------- */
 
